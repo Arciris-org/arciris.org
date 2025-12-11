@@ -19,7 +19,12 @@ export default function NotFound() {
           </p>
 
           <div className="flex gap-4 justify-center">
-            <Button asChild variant="outline" size="default" className="rounded-full px-5 py-2">
+            <Button
+              asChild
+              variant="outline"
+              size="default"
+              className="rounded-full px-5 py-2"
+            >
               <Link href="/">Go to Home</Link>
             </Button>
             <ContactButton />

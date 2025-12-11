@@ -15,13 +15,20 @@ export default function ErrorPage() {
           <h1 className="text-7xl md:text-[8rem] font-extrabold mb-6 bg-clip-text text-transparent bg-gray-700">
             500
           </h1>
-          <h2 className="text-2xl md:text-4xl font-semibold mb-4">Internal server error</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-              Sorry, something went wrong on our end. Please try again later.
-            </p>
+          <h2 className="text-2xl md:text-4xl font-semibold mb-4">
+            Internal server error
+          </h2>
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
+            Sorry, something went wrong on our end. Please try again later.
+          </p>
 
           <div className="flex gap-4 justify-center">
-            <Button asChild variant="outline" size="default" className="rounded-full px-5 py-2">
+            <Button
+              asChild
+              variant="outline"
+              size="default"
+              className="rounded-full px-5 py-2"
+            >
               <Link href="/">Go to Home</Link>
             </Button>
             <ContactButton />

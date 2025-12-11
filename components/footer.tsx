@@ -13,7 +13,12 @@ export function Footer() {
             <Link href="mailto:info@mail.arciris.org">Email</Link>
           </Button>
           <Button asChild variant="ghost" size="sm">
-            <Link href="https://github.com/Arciris-org/.github/blob/main/profile/POLICY.md" target="_blank">Policy</Link>
+            <Link
+              href="https://github.com/Arciris-org/.github/blob/main/profile/POLICY.md"
+              target="_blank"
+            >
+              Policy
+            </Link>
           </Button>
         </div>
         <div className="text-center mt-8 text-xs text-gray-400 dark:text-gray-600">
