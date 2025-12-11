@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export function Header() {
   return (
@@ -7,16 +8,20 @@ export function Header() {
         <Link href="/" className="text-xl font-semibold">
           Arciris org
         </Link>
-        <div className="flex items-center gap-8">
-          <Link href="/" className="text-sm hover:text-gray-600 dark:hover:text-gray-400 transition-colors">
-            Home
-          </Link>
-          <Link href="mailto:info@mail.arciris.org" className="text-sm hover:text-gray-600 dark:hover:text-gray-400 transition-colors">
-            Contact
-          </Link>
-          <Link href="https://github.com/Arciris-org" target="_blank" className="text-sm hover:text-gray-600 dark:hover:text-gray-400 transition-colors">
-            GitHub
-          </Link>
+        <div className="flex items-center gap-4">
+          <Button asChild variant="ghost" size="sm" className="px-3 py-1">
+            <Link href="/">Home</Link>
+          </Button>
+
+          <Button asChild variant="ghost" size="sm" className="px-3 py-1">
+            <Link href="mailto:info@mail.arciris.org">Contact</Link>
+          </Button>
+
+          <Button asChild variant="ghost" size="sm" className="px-3 py-1">
+            <Link href="https://github.com/Arciris-org" target="_blank">
+              GitHub
+            </Link>
+          </Button>
         </div>
       </nav>
     </header>

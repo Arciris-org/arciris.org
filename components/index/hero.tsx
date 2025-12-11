@@ -15,7 +15,7 @@ export function HeroSection() {
           <div className="flex gap-4 justify-center flex-wrap">
             <Button asChild size="lg" className="rounded-full px-8 text-base">
               <Link href="mailto:info@mail.arciris.org">
-                Join Us
+                Contact
               </Link>
             </Button>
             <Button variant="outline" asChild size="lg" className="rounded-full px-8 text-base">
