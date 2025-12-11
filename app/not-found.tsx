@@ -15,7 +15,7 @@ export default function NotFound() {
           </h1>
           <h2 className="text-2xl md:text-4xl font-semibold mb-4">Not found</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-            The page you're looking for could not be found.
+            The page you&apos;re looking for could not be found.
           </p>
 
           <div className="flex gap-4 justify-center">
